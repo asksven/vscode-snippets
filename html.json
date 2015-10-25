@@ -1,0 +1,16 @@
+{
+	"Add ionic tabs": {
+		"prefix": "iontabs",
+		"body": [
+			"<ion-tabs class=\"tabs-energized tabs-icon-top\">",
+			"	<ion-tab title=\"Dashboard\" icon=\"ion-home\" href=\"#\">",
+			"	</ion-tab>",
+			"	<ion-tab title=\"Favorites\" icon=\"ion-star\" href=\"#\">",
+			"	</ion-tab>",
+			"	<ion-tab title=\"Account\" icon=\"ion-gear-a\" href=\"#\">",
+			"	</ion-tab>",
+			"</ion-tabs>"
+		],
+		"description": "Add ionic tabs"
+	}
+}
