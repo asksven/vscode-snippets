@@ -37,6 +37,19 @@
 		"description": "Add ionic header"
 	},
 	
+	"Add ionic view": {
+		"prefix": "ionview",
+		"body": [
+			"<ion-view>",
+			"	<ion-content class=\"has-header\">",
+			"		<h1>title-goes-here</h1>",
+			"	</ion-content>",
+			"</ion-view>"
+		],
+		"description": "Add ionic header"
+	},
+	
+	
 	"Add ionic sidemenu": {
 	"prefix": "ionsidemenu",
 		"body": [
@@ -56,8 +69,8 @@
 			"		</header>",
 			"		<ion-content class=\"has-header\">",
 			"			<ion-list>",
-			"				<ion-item nav-clear menu-close>Item1</ion-item>",
-			"				<ion-item nav-clear menu-close>item2</ion-item>",
+			"				<ion-item nav-clear menu-close ui-sref=\"app.route1\">Item1</ion-item>",
+			"				<ion-item nav-clear menu-close ui-sref=\"app.route1\">item2</ion-item>",
 			"			</ion-list>",		
 			"		</ion-content>",	
 			"	</ion-side-menu>",
