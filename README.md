@@ -1,1 +1,1 @@
-# Visual Sutio Code Snippets
+# Visual Studio Code Snippets
